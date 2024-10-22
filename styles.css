@@ -175,3 +175,94 @@ hr{
     height: .2rem;
     background-color: #C19E58;
 }
+
+
+
+@media (max-width: 768px) {
+
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    header > img {
+        max-width: 40%;
+    }
+
+    nav li {
+        font-size: 1.rem;
+    }
+
+    nav a {
+        color: #F8F8F8;
+        padding: 10px;
+        display: block; 
+        text-align: center; 
+    }
+
+    nav a:hover {
+        color: #4B4B4B;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    article {
+        margin-bottom: 2rem; 
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+    }
+
+    h2 {
+        font-size: 1.8rem; 
+    }
+
+    .img-background {
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+
+    .new-collection p,
+    .contact-us-now p,
+    .karat-guarantee p {
+        width: 95%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    header > img {
+        max-width: 55%; 
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .img-background {
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+
+    nav li {
+        font-size: medium; 
+        margin: 5px 0; 
+    }
+
+    footer div > img {
+        max-width: 80%; 
+    }
+
+    footer div > p {
+        text-align: center; 
+    }
+}
+
